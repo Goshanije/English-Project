@@ -106,11 +106,25 @@ section {
     font-size: 18px;
 }
 
+img.toilet {
+    position: relative;
+    border-radius: 8px;
+    top: 12px;
+    width: 26px;
+    height: auto;
+    padding: 5px;
+    background-color: #4CAF50;
+}
+
 h2 {
     margin-bottom: 13px;
     margin-top: 0.2vw;
     line-height: 50px;
     font-size: 40px;
+}
+h3 {
+    margin-bottom: 7px;
+    font-size: 20px;
 }
 
 .briefly {
@@ -121,6 +135,14 @@ h2 {
     font-size: 20px;
     margin: 0;
 }
+
+.detailed-plc {
+    font-size: 20px;
+    margin: 0;
+}
+
+
+
 
 @media (max-width: 786px) {
     ul {
@@ -142,11 +164,20 @@ h2 {
     .detailed {
         font-size: 17px;
     }
+    .detailed-plc {
+        font-size: 17px;
+    }
+    h3 {
+        font-size: 17px;
+    }
     .tags {
         font-size: 17px;
         margin-right: 6px;
     }
-    
+    img.toilet {
+        width: 25.2px;
+        height: auto;
+    }
 }
 @media (max-width: 480px) {
     .briefly {
@@ -166,11 +197,21 @@ h2 {
     .detailed {
         font-size: 14px;
     }
+    .detailed-plc {
+        font-size: 14px;
+    }
+    h3 {
+        font-size: 14px;
+    }
     .tags {
         font-size: 13px;
         margin-right: 4px;
         padding: 6px;
     }
-    
+    img.toilet {
+        width: 16.4px;
+        height: auto;
+        top: 9px;
+    }
 }
 
