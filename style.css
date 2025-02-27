@@ -56,6 +56,7 @@ main {
 .details {
     display: none;
     margin-top: 10px;
+    margin-bottom: 10px;
     background: #f9f9f9;
     padding: 10px;
     border-radius: 5px;
@@ -123,8 +124,8 @@ h2 {
     font-size: 40px;
 }
 h3 {
-    margin-top: 0px;
-    margin-bottom: 7px;
+    margin-bottom: 0px;
+    margin-top: 7px;
     font-size: 20px;
 }
 
